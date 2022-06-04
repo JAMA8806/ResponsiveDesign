@@ -109,8 +109,8 @@ main{
     width: 100%;
     height: auto;
     background-color: var(--off-white);
-    height: auto;
     min-width: 350px;
+    text-align: center;
 }
 .main-exchange-container{
    /*forma uno de centrar todo el contenido
@@ -229,8 +229,77 @@ main{
     text-align: center;
     font-size: 12px ;
 }
-
-
+.main-benefits-container{
+    width: 100%;
+    height: auto;
+    background-color: var(--warn-black);
+    min-width: 350px;
+    text-align: center;
+    padding: 32px 4px;
+}
+.main-benefits-title{
+    width: 90%;
+    margin-top: 32px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-benefits-title h2{
+    font-size: var(--xlg);
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.main-benefits-title p{
+    font-size: var(--sm);
+    color: var(--grey);
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.benefit-container{
+    width: 90%;
+    height: auto;
+    padding: 8px;
+    background:#282623;
+    border-radius: 6px;
+    margin: 16px auto;
+}
+.benefit-container span{
+    width: 20px;
+    height: 20px;
+    display: block;
+    align-self: initial;
+    background-size: cover;
+    background-repeat: none;
+    margin-bottom: 8px;
+}
+.benefit-container h3{
+    color: var(--off-white);
+    font-size: var(--md);
+    text-align: initial;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.benefit-container p{
+    color: var(--grey);
+    font-size: var(--sm);
+    text-align: initial;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.benefits-icon--1{
+    background-image: url(./assets/assets/icons/clock.svg);
+}
+.benefits-icon--2{
+    background-image: url(./assets/assets/icons/eye.svg);
+}
+.benefits-icon--3{
+    background-image: url(./assets/assets/icons/dollar-sign.svg);
+}
+.benefits-icon--4{
+    background-image: url(./assets/assets/icons/check-circle.svg);
+}
 
 
 
