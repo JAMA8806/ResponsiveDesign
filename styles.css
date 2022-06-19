@@ -122,11 +122,7 @@ main{
     width: 100%;
     height: auto;
     padding-top: 80px;
-<<<<<<< HEAD
     padding-bottom: 60px;
-=======
-    padding-bottom: 30px;
->>>>>>> df34d0dcf894c12f3ee89ffe89b3f67602c8e517
     min-width: 350px;
 }
 .main-exchange-container .background-image{
@@ -229,7 +225,7 @@ main{
     padding: 12px;
     background: var(--soft-orange);
     border-radius: 12px;
-    margin: 20px auto;
+    margin: 20px auto 54px;
     text-align: center;
     font-size: 12px ;
 }
@@ -240,6 +236,18 @@ main{
     min-width: 350px;
     text-align: center;
     padding: 32px 4px;
+    position: relative;
+}
+span.patata-icon{
+    position: absolute;
+    display: inline-block;
+    background-image: url(./assets/assets/icons/batata.svg);
+    height: 20px; 
+    width: 40px;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -10px;
+    left: calc(50% - 20px);
 }
 .main-benefits-title{
     width: 90%;
@@ -249,6 +257,7 @@ main{
     text-align: center;
     margin: 0 auto;
 }
+
 .main-benefits-title h2{
     font-size: var(--xlg);
     color: var(--white);
