@@ -122,7 +122,11 @@ main{
     width: 100%;
     height: auto;
     padding-top: 80px;
+<<<<<<< HEAD
     padding-bottom: 60px;
+=======
+    padding-bottom: 30px;
+>>>>>>> df34d0dcf894c12f3ee89ffe89b3f67602c8e517
     min-width: 350px;
 }
 .main-exchange-container .background-image{
