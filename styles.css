@@ -64,7 +64,7 @@ header img{
 .header--title-container h1{
     color: var(--white);
     font-size: var(--xlg);
-    line-height: 2.6rem;
+    line-height: 2.6rem; g
     font-weight: bold;
 }
 .header--title-container p{
@@ -98,10 +98,9 @@ header img{
 .header--button span{
     display: inline-block; /*para visualización, por defecto no se puede*/
     width: 13px;
-    height: 10px;
+    height: 13px;
     margin-left: 10px;
-    
-    background-image: url('../ResponsiveDesign/assets/assets/icons/down-arrow.svg');
+    background-image: url('./assets/assets/icons/down-arrow.svg');
     background-size: cover;
     background-position: center;       
 }
@@ -140,14 +139,14 @@ main{
     max-width: 900px;
     margin: 0 auto;
 }
-.main-exchange-container--text h2{
+h2{
     font-size: var(--xlg);
     color: var(--black);
     margin-bottom: 32px;
     line-height: 24px;
     font-weight: 700;
 }
-.main-exchange-container--text p{
+p{
     font-size: var(--sm);
     color: #757575;
     line-height: 18px;
@@ -221,13 +220,16 @@ main{
     margin: 0 8px; 
 }
 .currency-table-date{
-    width: 180px;    
+    width: 80%;    
     padding: 12px;
     background: var(--soft-orange);
     border-radius: 12px;
     margin: 20px auto 54px;
     text-align: center;
     font-size: 12px ;
+}
+.currency-table-date p{
+    color: var(--warn-black);
 }
 .main-benefits-container{
     width: 100%;
@@ -257,7 +259,6 @@ span.patata-icon{
     text-align: center;
     margin: 0 auto;
 }
-
 .main-benefits-title h2{
     font-size: var(--xlg);
     color: var(--white);
@@ -314,6 +315,96 @@ span.patata-icon{
 .benefits-icon--4{
     background-image: url(./assets/assets/icons/check-circle.svg);
 }
+.comodin-section { 
+    width: 100%;
+    height: 387px;     
+    background-image: url("./assets/assets/img/bitcoinbaby2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.comodin-title h2{
+    padding-top: 76px;
+    color: var(--white);
+}
+.plans-container{
+    background: var(--off-white);
+    height: auto;
+    margin: 50px 8px;
+}
+.plans-container .plans-title{
+    padding-bottom: 40px;
+}
+
+.card-container{
+    margin: 24px auto;
+    width: 190px;
+    height: 247px;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    position: relative;
+    padding: 8px;
+}
+.card-container p{
+    font-size: 12px;
+}
+.card-container .floating-title{
+    height: 32px;
+    width: 102px;
+    background: var(--bitcoin-orange);
+    color: var(--white);
+    border-radius: 8px;
+    position: absolute;
+    top: -16px;
+    left: calc(50% - 51px);
+    font-size: 12px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h3 {
+    padding-top: 30px;
+    font-size: var(--sm);
+    color: var(--black); 
+}
+.card-container .plan-cost{
+    font-size: 52px;
+    line-height: 62px;
+    padding: 8px;
+    font-weight: 900;
+    color: #000;
+    font-family: "Inter";
+}
+sup{
+    font-size: 12px;
+}
+.card-container .plan-button{
+    height: 48px ;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    margin: 8px;
+    border-radius: 4px;
+    color: var(--warn-black);
+    font-weight: bold;
+}
+.card-container .plan-button span{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    background-image: url("./assets/assets/icons/orange-right-arrow.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
 
 
 
