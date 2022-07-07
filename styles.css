@@ -158,7 +158,7 @@ p{
 .main-table-container {
     width: 90%; 
     min-width: 288px;   
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-top: 48px;
 }
@@ -167,7 +167,7 @@ p{
     width: 70%; 
     height: auto;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 450px;
     margin: 0 auto; 
     font-family: "Inter";      
 }
@@ -176,6 +176,7 @@ p{
     font-size: var(--md);
     font-weight: 700;
     padding: 8px;
+    text-align: center;
 }
 .currency-table-container {
     width: 100%;
@@ -234,7 +235,13 @@ p{
 .currency-table-date p{
     color: var(--warn-black);
 }
-.main-benefits-container{
+p#comision-title{
+    color: var(--secondary-blue);
+}
+#comision-date{
+    background: #E7F5FF;
+}
+.main-benefits{
     width: 100%;
     height: auto;
     background-color: var(--warn-black);
@@ -281,7 +288,7 @@ span.patata-icon{
     background:#282623;
     border-radius: 6px;
     margin: 16px auto;
-    max-width: 900px;
+    max-width: 450px;
 }
 .benefit-container span{
     width: 20px;
@@ -426,6 +433,10 @@ footer{
 }
 footer div{
     margin: 20px;
+}
+footer div img{
+    width: 64px;
+    height: 50px;
 }
 footer p{
     color: var(--off-white);
